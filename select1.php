@@ -25,7 +25,7 @@
 	print_r ( $row);*/
 
 	while (($row = $stmt->fetchAssociative()) !== false) {
-	    echo $row['1'] . "\n";
+	    echo $row['name'] . "\n";
 	}
 
 	//print_r ( $stmt);
