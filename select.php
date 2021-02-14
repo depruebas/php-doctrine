@@ -6,10 +6,10 @@
 	require_once "vendor/autoload.php";
 
 	$connectionParams = array(
-    'dbname' => 'cambiatealinux_prod',
-    'user' => 'devuser',
-    'password' => 'K@rakul098',
-    'host' => '37.187.101.226',
+    'dbname' => 'pruebas',
+    'user' => 'root',
+    'password' => '',
+    'host' => 'localhost',
     'driver' => 'pdo_mysql',
 	);
 
